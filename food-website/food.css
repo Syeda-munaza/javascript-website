@@ -552,3 +552,13 @@ body.dark-mode{
 .dark-mode .social a:hover{
     background-color: #555;
 }
+
+@media (max-width: 768px) {
+    .top-navbar {
+        flex-direction: column;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
